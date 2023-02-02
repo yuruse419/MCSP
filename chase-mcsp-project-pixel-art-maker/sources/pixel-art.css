@@ -1,0 +1,14 @@
+/* .pixels {
+    box-sizing: border-box; /*prevents border from changing size of elements
+    border: thin solid black;
+    background-color: white;
+    align-items: flex-start;
+}
+
+.parent-container {
+    padding-left: 15%;
+    padding-right: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+} */

@@ -1,0 +1,36 @@
+#container {
+    width: 800px;
+    margin: auto;
+    margin-top: 30%;
+}
+
+#stage {
+    border-bottom: 10px solid blue;
+    margin-bottom: -60px;
+}
+
+#runner {
+    position: relative;
+    z-index: -1;
+    margin-bottom: 18px;
+}
+
+#pacing {
+    left: 0px;
+    width: 50px;
+    height: 100px;
+    background: blueviolet;
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+}
+
+#message {
+    margin: auto;
+    font-size: larger;
+    background-color:darkblue;
+    text-align: center;
+    padding: 30px;
+    font-weight: bolder;
+    color: yellow;
+}

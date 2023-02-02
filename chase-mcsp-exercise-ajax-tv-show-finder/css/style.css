@@ -1,0 +1,63 @@
+html {
+  width: 100%;
+}
+
+body {
+  width: 100%;
+  background-image: url(../images/background.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+
+#main {
+  width: 80%;
+  font-family: "Jost", sans-serif;
+  margin: auto;
+  border: 3px solid antiquewhite;
+  border-radius: 20px;
+  text-align: center;
+  padding: 20px;
+  color: rgb(0, 0, 0);
+}
+
+#results {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: rgba(255, 196, 0, 0.6);
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.result-card {
+  box-sizing: border-box;
+  width: 30%;
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px;
+  display: inline-block;
+}
+
+#user-section {
+  border-radius: 20px;
+  padding: 20px;
+  margin: auto;
+  width: 30%;
+  background-color: rgba(255, 196, 0, 0.6);
+}
+
+#titlebg {
+  margin: 20px;
+  background-color: white;
+  border-radius: 20px;
+}
