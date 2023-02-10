@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto&family=Source+Serif+Pro:wght@300;400&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    --highlight: #3AFFC0;
+    --white: #f4f4f4;
+    --black: #333;
+    font-family: 'Oswald', sans-serif;
+}
+
+#logo {
+    color: var(--white);
+    font-style: italic;
+    margin-left: 1rem;
+    font-size: 2.6rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+    background: var(--black);
+    border-bottom: 5px solid var(--highlight);
+}
+
+#list {
+    display: flex;
+    list-style: none;
+}
+
+.listItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem 1rem;
+
+    margin: .5rem;
+    border: 3px solid var(--white);
+    color: var(--white);
+    transition: background .5s ease;
+}
+
+.listItem:hover {
+    cursor: pointer;
+    border-color: var(--highlight);
+    background: var(--highlight);
+    color: var(--black);
+}
+
+#formTitle {
+    color: var(--white);
+}
+
+#inputForm {
+    color: var(--white);
+    display: flex;
+}
+
+.shapeInput {
+    background: var(--black);
+    border: 1px solid var(--highlight);
+    color: var(--white);
+    transition: padding .5s ease;
+}
+
+.shapeInput:focus {
+    outline: none;
+    padding: .4rem;
+}
+
+.formInputItem {
+    margin: 0 1rem;
+}
+
+#formBtn {
+    background: var(--highlight);
+    border: none;
+    padding: .2rem 1rem;
+    transition: .4s background ease;
+}
+
+#formBtn:hover {
+    cursor: pointer;
+    background: var(--white);
+}

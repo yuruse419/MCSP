@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
+  <script defer type="module" src="main.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="formContainer">
+      <h1 id="formTitle">Create your own</h1>
+      <form id="inputForm">
+        <div class="formInputItem">
+          <label for="shapeInput" class="inputLabel">X coordinate</label>
+          <input type="text" class="shapeInput" id="rectX">
+        </div>
+        <div class="formInputItem">
+          <label for="shapeInput" class="inputLabel">Y coordinate</label>
+          <input type="text" class="shapeInput" id="rectY">
+        </div>
+        <div class="formInputItem">
+          <label for="shapeInput" class="inputLabel">Height</label>
+          <input type="text" class="shapeInput" id="rectHeight">
+        </div>
+        <div class="formInputItem">
+          <label for="shapeInput" class="inputLabel">Width</label>
+          <input type="text" class="shapeInput" id="rectWidth">
+        </div>
+        <input type="submit" id="formBtn">
+      </form>
+    </div>
+    <ul id="list">
+      <li class="listItem" id="circ">Circles</li>
+      <li class="listItem" id="ellip">Ellipse</li>
+      <li class="listItem" id="reset">Reset</li>
+    </ul>
+  </div>
+</body>
+</html>
